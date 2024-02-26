@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_marginTop">30dp</dimen>
+    <dimen name="layout_marginTop_musicTitle">150dp</dimen>
+    <dimen name="text_size_musicTitle">32sp</dimen>
+    <dimen name="vinyl_record_size">200dp</dimen>
+    <dimen name="seek_bar_wight_size">300dp</dimen>
+    <dimen name="layout_margin_bottom_back_and_next">35dp</dimen>
+    <dimen name="bottom_width">70dp</dimen>
+    <dimen name="bottom_height">60dp</dimen>
+
+    <dimen name="layout_marginTop_musicTitle_land">40dp</dimen>
+    <dimen name="vinyl_record_size_land">130dp</dimen>
+
+</resources>

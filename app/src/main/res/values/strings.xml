@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Aston_intensiv_1</string>
+    <string name="music_title">Music Title</string>
+    <string name="_0_00">0:00</string>
+    <string name="service_manifest_description">Playing music</string>
+
+</resources>

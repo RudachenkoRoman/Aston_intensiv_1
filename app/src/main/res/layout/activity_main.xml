@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/musicTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/music_title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_musicTitle"
+        android:layout_marginTop="@dimen/layout_marginTop_musicTitle" />
+
+    <ImageView
+        android:id="@+id/imageVinylRecord"
+        android:layout_width="@dimen/vinyl_record_size"
+        android:layout_height="@dimen/vinyl_record_size"
+        app:srcCompat="@drawable/vinyl_record"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/layout_marginTop"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_gravity="center">
+
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="@dimen/bottom_width"
+            android:layout_height="@dimen/bottom_height"
+            app:srcCompat="@drawable/baseline_skip_previous_24"
+            />
+
+        <ImageButton
+            android:id="@+id/buttonPlayAndStop"
+            android:layout_width="@dimen/bottom_width"
+            android:layout_height="@dimen/bottom_height"
+            app:srcCompat="@drawable/baseline_play_arrow_24"
+            android:layout_marginEnd="@dimen/layout_margin_bottom_back_and_next"
+            android:layout_marginStart="@dimen/layout_margin_bottom_back_and_next"/>
+
+        <ImageButton
+            android:id="@+id/buttonNext"
+            android:clickable="false"
+            android:layout_width="@dimen/bottom_width"
+            android:layout_height="@dimen/bottom_height"
+            app:srcCompat="@drawable/baseline_skip_next_24"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
